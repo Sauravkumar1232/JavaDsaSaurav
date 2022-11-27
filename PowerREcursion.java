@@ -1,6 +1,6 @@
 public class PowerREcursion {
     public static void main(String[] args) {
-        int power=4;
+        int power=1;
         int number=3;
         System.out.println(calPower(power,number)); 
     }
