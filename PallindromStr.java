@@ -36,7 +36,8 @@ public class PallindromStr {
 
     // }
     public static void main(String[] args) {
-        String name = "aaabaaa";
+        String name = "ab";
+        System.out.println(name.length());
         boolean isPallindrom = checkPallindrom(name, 0, name.length() - 1);
         if (isPallindrom) {
             System.out.println("yes");
