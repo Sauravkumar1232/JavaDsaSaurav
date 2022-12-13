@@ -1,5 +1,6 @@
 public class RecursionNew {
 public static void main(String[] args) {
+<<<<<<< HEAD
    //recerce a number
    int num=12003054;
    int rev=0;
@@ -26,3 +27,8 @@ num =num/10;
     // return  (rem)*10+revNum(num/10);
 }
 
+=======
+    System.out.println("saurav");
+}
+}
+>>>>>>> 84b48df79b62684356dd63f0f1dcd62f348deeab
