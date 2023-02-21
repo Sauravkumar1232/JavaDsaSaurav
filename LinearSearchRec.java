@@ -65,6 +65,7 @@ public class LinearSearchRec {
         if (arr[index] == target) {
             list.add(index);
         }
+<<<<<<< HEAD
          return findallindexces(arr, target, index + 1, list);   // here list variables are different reference variables although they have same name
     }
 
@@ -79,6 +80,9 @@ public class LinearSearchRec {
             list.add(index);
         }
          return findallindexces2(arr, target, index + 1);    //here list variables are different reference variables although they have same name
+=======
+         return findallindexces(arr, target, index + 1, list);    //here list variables are different reference variables although they have same name
+>>>>>>> ee1233054f652b86475284e3d5042417ca2bd247
     }
 
 }
