@@ -65,7 +65,20 @@ public class LinearSearchRec {
         if (arr[index] == target) {
             list.add(index);
         }
-         return findallindexces(arr, target, index + 1, list);    here list variables are different reference variables although they have same name
+         return findallindexces(arr, target, index + 1, list);   // here list variables are different reference variables although they have same name
+    }
+
+    private static ArrayList<Integer>  findallindexces2(int[] arr, int target, int index) {
+       ArrayList<Integer> list=new ArrayList<>();
+        if (index == arr.length) {
+             System.out.println("not found");
+            return list;
+        }
+        //This will conatin answer fot that function call only
+        if (arr[index] == target) {
+            list.add(index);
+        }
+         return findallindexces2(arr, target, index + 1);    //here list variables are different reference variables although they have same name
     }
 
 }
