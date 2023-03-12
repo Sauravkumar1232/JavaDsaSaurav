@@ -58,3 +58,79 @@ https://leetcode.com/problems/rotate-array/
 
 16. Running Sum of 1D Array - HW - Leetcode - 1480
 	https://leetcode.com/problems/running-sum-of-1d-array/
+
+
+
+    15. Find Missing Number : LC-268
+    i/p : arr = {1,2,3,5}
+    o/p : 4
+    Input : nums = [9,6,4,2,3,5,7,0,1]
+    Output: 8
+
+    Approach_1 - Use Extra Array
+    Approach_2 - Sum of N natural number - sum of array
+    Approach_3 - Sort and then linear search
+    Approach_4 - Using XOR
+
+16. Find Odd Element : LC-136
+    Input : nums = [1,1,2,2,3,3,4,5,5]
+    Ouput : 4
+    Input: nums = [2,2,1]
+    Output: 1
+    
+17. Buy and Sell Stock : LC-121
+    Input: prices = [7,1,5,3,6,4]
+    Output: 5
+    Input: prices = [2,8,1,3,4,5]
+    Output: 6
+
+18. Trapping Rain Water : LC - 42
+    Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
+    Output: 6
+    Input: height = [4,2,0,3,2,5]
+    Output: 9
+
+19. Gas Station : LC-134
+    Input: gas = [1,2,3,4,5], cost = [3,4,5,1,2]
+    Output: 3
+
+
+21. Leader Element - HW
+    i/p : [5,2,8,9,7,2]
+    o/p : 2,7,9
+
+22. Frequency in sorted array - HW
+    arr : {10,10,10,25,31,31,32};
+    o/p : 10 3, 25 1, 31 2, 31 1
+
+23. Arrange positive and negative numbers - HW
+    arr : [10,21,-11,-20,15,19,-30]
+    o/p : [-11,-20,-30,10,15,19]
+
+24. Find the frequency of element in sorted array - HW
+25. Peak Element : LC-162 - HW
+
+26. Binary Search
+
+27. Find nearest lowest and nearest greater value in given sorted array
+    input : arr[] = { 10, 12, 15, 17, 19, 20, 25, 27, 30, 35, 40 }, search = 29
+    output : 27, 30
+
+28. Find the first and last occurrence of an element
+    input : arr[] = {1,1,2,2,3,4,5,5,5,5,6,7}, k = 5
+    output : [6,9]
+
+29. Find maximum sum of k consecutive elements in an array
+    i/p : arr[] = {1,40,30,10,20,5}, k = 3
+    o/p : 80
+
+    TC : O(n), SC : O(1)
+
+Window Sliding Technique
+
+30. Find subarray whose sum is equals to given sum
+    i/p : arr[] = {10,20,30,40,50,60,70,80,290}, sum = 90
+    o/p : 
+
+31. NBonacii Series
+32. Count distinct element in every Window of size k

@@ -3,7 +3,7 @@
 //     o/p : 2,3
 //     pair is 5 and 6
 
-package Array;
+// package Array;
 
 class PairSum {
     public static void main(String[] args) {

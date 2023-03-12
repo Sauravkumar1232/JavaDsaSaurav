@@ -1,4 +1,5 @@
-package Array;
+
+//package Array;
 //
 import java.util.Arrays;
 
@@ -18,7 +19,7 @@ public class RotateArraybyOne {
                 arr[j] = temp;
                 i++;
             }
-            System.out.println(Arrays.toString(arr));?????/
+            System.out.println(Arrays.toString(arr))????
         }
         
     }
@@ -32,6 +33,6 @@ public class RotateArraybyOne {
         }
         arr[arr.length - 1] = last;
 
-         System.err.println(Arrays.toString(arr));
+        System.err.println(Arrays.toString(arr));
     }
 }

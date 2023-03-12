@@ -1,4 +1,3 @@
-package Array;
 
 public class LeaderElement {
     public static void webHelp(int arr[], int n) {
@@ -9,7 +8,7 @@ public class LeaderElement {
                     break;
             }
             if (j == n) {
-                System.out.print(arr[i] + " ");??????/
+                System.out.print(arr[i] + " ");
             }
         }
 
@@ -18,14 +17,15 @@ public class LeaderElement {
     public static void leader(int arr[], int n) {
         int k = 0;
         int i;
-        for ( i = 0; i < n; i++) {
-           int temp=arr[i];
+        for (i = 0; i < n; i++) {
+            int temp = arr[i];
             boolean flag = false;
             if (temp < arr[i + 1]) {
                 flag = true;
-               
+
                 break;
-            }k++;
+            }
+            k++;
 
         }
         if (i == n) {
@@ -35,7 +35,8 @@ public class LeaderElement {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 5, 17, 4, 3, 5, 2 };
+       // int arr[] = { 5, 17, 4, 3, 5, 2 };
+        int arr[]={5,2,7,8,9};
         int n = arr.length;
         System.out.println("length " + n);
         leader(arr, n);
