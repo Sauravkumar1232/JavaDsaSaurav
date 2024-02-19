@@ -47,6 +47,20 @@ class intro {
         }
 
         map.remove("China");
-        System.out.println(map);
+        System.out.println(map.size());
+
+        ///////////////////////////////////////////////////////
+        HashSet<Integer> set = new HashSet<>();
+        set.add(1);
+        set.add(20);
+        set.add(3);
+        System.out.println(set);
+
+        System.err.println("----------Iterator---------");
+        Iterator it = set.iterator();
+        while (it.hasNext()) {
+            System.out.print(it.next() + " ");
+        }
     }
+
 }
