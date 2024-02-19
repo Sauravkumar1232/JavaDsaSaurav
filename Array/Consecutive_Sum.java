@@ -1,10 +1,13 @@
 class Consecutive_Sum {
+    private static final int INT_MIN = 0;
+
     public static void main(String[] args) {
-        int[] nums = { 3, 2, 5, 4, 1 };
+        int[] nums = { -2, -3, 4, -1, -2, 1, 5, -3 };
         // int[] nums = { 1, 40, 30, 100, 20, 90 };
-        int k = 3;
+        int k = 5;
         naveBase(nums, k);
         approch(nums, k);
+        approch2(nums, k);
 
         // int target = 80;
         int max = 0;
@@ -21,6 +24,22 @@ class Consecutive_Sum {
             }
         }
         System.out.println(max);
+    }
+
+    private static void approch2(int[] nums, int k) {
+        int max_so_far = INT_MIN;
+        int max_ending_here = 0;
+        for (int i = 0; i < nums.length; i++) {
+            max_ending_here += nums[i];
+            if (max_so_far < max_ending_here) {
+                max_so_far = max_ending_here;
+            }
+            if (max_ending_here < 0) {
+                max_ending_here = 0;
+            }
+        }
+        System.out.println("Approch2 => " + max_ending_here);
+
     }
 
     private static void approch(int[] nums, int k) {
