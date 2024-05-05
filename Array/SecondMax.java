@@ -56,4 +56,23 @@ public class SecondMax {
         }
         System.out.println(max);
     }
+
+
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        int[] arr = {3,2,1,8,9,5};
+        int max=0;
+        int secondMax=0;
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]>max){
+                max=arr[i];
+            }
+        }
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]>secondMax && max>arr[i] ){
+                secondMax=arr[i];
+            }
+        }
+        System.out.println(max);
+        System.out.print(secondMax);
 }
